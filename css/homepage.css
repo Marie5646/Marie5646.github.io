@@ -212,19 +212,21 @@ section.banner {
     padding: 0.2em;
 
 }
+.skill-icon{
+    padding: 1em;
+}
 
 .skill2, .skill1 {
     display: flex;
     justify-content: center;
     list-style: none;
     color: #EDC7BE;
-
 }
 
 
 .skills-heading {
     text-align: center;
-    margin-top: 2em;
+    margin-top: 0.5em;
     font-size: 10vw;
     color: #EDC7BE;
     font-weight: 700;

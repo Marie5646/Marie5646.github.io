@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 198.2 134.57">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 58px;
+      }
+
+      .cls-1, .cls-2 {
+        fill: #fff;
+        font-family: FormaDJRDisplay-Bold, 'Forma DJR Display';
+        font-weight: 700;
+      }
+
+      .cls-3 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-4 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-5 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-6 {
+        letter-spacing: -.03em;
+      }
+
+      .cls-7 {
+        letter-spacing: 0em;
+      }
+
+      .cls-8 {
+        letter-spacing: 0em;
+      }
+
+      .cls-9 {
+        letter-spacing: 0em;
+      }
+
+      .cls-2 {
+        font-size: 87.48px;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <text class="cls-2" transform="translate(8.37 74.35) scale(.98 1)"><tspan class="cls-4" x="0" y="0">A</tspan><tspan class="cls-9" x="56.25" y="0">SI</tspan><tspan class="cls-5" x="130.69" y="0">A</tspan></text>
+    <text class="cls-1" transform="translate(.53 120.13) scale(.95 1)"><tspan class="cls-6" x="0" y="0">A</tspan><tspan class="cls-7" x="36.71" y="0">UTR</tspan><tspan class="cls-8" x="141.16" y="0">E</tspan><tspan class="cls-3" x="172.94" y="0">Y</tspan></text>
+  </g>
+</svg>

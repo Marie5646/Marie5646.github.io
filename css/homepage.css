@@ -259,6 +259,18 @@ footer {
     list-style: none;
     white-space: nowrap;
 }
+#proj1{
+    background-image: url("../img/Screen Shot 2023-06-12 at 1.28.46 PM.png");
+    background-position: center;
+    background-size: cover;
+}
+
+#proj2{
+background-image: url("../img/Screen Shot 2023-06-12 at 1.32.23 PM.png");
+background-position: center;
+background-size: cover;
+}
+
 
 
 @media (max-width: 575.98px) {

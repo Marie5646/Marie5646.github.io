@@ -245,11 +245,11 @@ footer {
 }
 
 .footer-logo {
-    margin-right: 28em;
+    margin-right: 13em;
     margin-left: 2em;
-    /*width: 20em;*/
-    /*height: 20em;*/
-    max-width: 40%;
+    width: 15em;
+    height: 15em;
+    /*max-width: 60%;*/
 
 }
 

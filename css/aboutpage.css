@@ -115,9 +115,10 @@ footer {
 }
 
 .footer-logo {
-    margin-right: 28em;
+    margin-right: 13em;
     margin-left: 2em;
-    max-width: 40%;
+    width: 15em;
+    height: 15em;
 
 }
 .picture{

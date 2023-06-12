@@ -117,8 +117,6 @@ footer {
 .footer-logo {
     margin-right: 28em;
     margin-left: 2em;
-    /*width: 20em;*/
-    /*height: 20em;*/
     max-width: 40%;
 
 }
@@ -129,36 +127,31 @@ footer {
     background-size: contain;
     border: 6px solid #EDC7BE;
     border-radius: 41px;
-    position: relative;
-    left: 6em;
 }
 .header{
     text-align: left;
     letter-spacing: 0px;
     color: #EDC7BE;
     opacity: 1;
-    position: relative;
-    top: 2em;
-    font-size: 4em;
+    font-size: 6vw;
     white-space: nowrap;
     font-weight: bold;
 }
 .top{
-    position: relative;
-    top: 10em;
-    left: 25em;
+    margin: 3em;
+
 }
 .top-box{
+    font-size: 1vw;
     max-width: 800px;
     max-height: 800px;
     text-align: center;
-    font: normal normal medium  Forma DJR Display;
+    font-family: "Forma DJR Display", serif;
+    font-weight: normal;
     letter-spacing: 2.76px;
     color: #EDC7BE;
     opacity: 1;
-    position: relative;
-    top: 15em;
-    left: 20em;
+    margin: auto;
 }
 #resumeBtn1 {
     text-align: center;
@@ -183,4 +176,41 @@ footer {
     position: relative;
     top:20em;
     left: 37em;
+}
+
+.head-pic{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+.top-li{
+    padding: 1em;
+}
+
+#about-me{
+    align-self: center;
+}
+@media (max-width: 575.98px) {
+
+    .top-box {
+    font-size: 4vw;
+    width: 300px;
+    }
+
+    .picture{
+        width: 150px;
+        height: 150px;
+    }
+    .footer-navbar{
+        margin-left: -13em;
+        display: block;
+    }
+    .footer-logo{
+        scale: 70%;
+        margin-top: 3em;
+        margin-left: -0.5em;
+
+    }
+
 }

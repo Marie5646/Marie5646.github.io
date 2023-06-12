@@ -152,7 +152,6 @@ section.banner {
 #resumeBtn1:hover{
     background-color: white;
     color: #EDC7BE;
-    border: 3px solid #EDC7BE;
 
 }
 
@@ -210,7 +209,7 @@ section.banner {
 
 
 .fa-brands {
-    padding: 0.5em;
+    padding: 0.2em;
 
 }
 
@@ -275,9 +274,13 @@ footer {
 #proj2{
 background-image: url("../img/Screen Shot 2023-06-12 at 1.32.23 PM.png");
 background-position: center;
-background-size: cover;
+background-size: contain;
 }
-
+#proj3{
+    background-image: url("../img/Screen Shot 2023-06-12 at 3.44.48 PM.png");
+    background-position: center;
+    background-size:contain;
+}
 .nav-link:hover{
     color: #D3C7BA;
 }
@@ -344,7 +347,7 @@ background-size: cover;
     }
 
     .fa-brands{
-        scale: 40%;
+        scale: 70%;
         padding: 0em;
     }
     .skills-heading{

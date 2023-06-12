@@ -13,7 +13,10 @@ html,body
     overflow-x: hidden;
     background-color: #D3C7BA;
 }
+.fa-brands {
+    padding: 0.2em;
 
+}
 
 nav {
     font-family: "forma-djr-display", sans-serif;
@@ -185,6 +188,21 @@ footer {
     color: #D3C7BA;
 
 }
+#proj1A{
+    background-image: url("../img/Screen Shot 2023-06-12 at 1.32.23 PM.png");
+    background-size: cover;
+    background-position: center;
+}
+#proj2A{
+    background-image: url("../img/Screen Shot 2023-06-12 at 1.28.46 PM.png");
+    background-size: cover;
+    background-position: center;
+}
+#proj1B{
+    background-image: url("../img/Screen Shot 2023-06-12 at 3.44.48 PM.png");
+    background-size: cover;
+    background-position: center;
+}
 
 
 @media (max-width: 575.98px) {
@@ -226,5 +244,13 @@ footer {
 
     }
 
+    .nav-right{
+        margin-left: 0.2em;
+        margin-top: 1em;
+    }
+    .fa-brands{
+        scale: 70%;
+        padding: 0em;
+    }
 
 }

@@ -109,6 +109,7 @@ a {
     margin-left: 28em;
 
 
+
 }
 .button-container{
     margin-bottom: 3em;
@@ -182,3 +183,34 @@ footer {
     color: #EDC7BE;
 }
 
+
+@media (max-width: 575.98px) {
+
+    .project-box{
+        width: 350px;
+        height: 200px;
+        margin: 2em;
+
+
+    }
+    .projbtn {
+        padding: 0.5em 6em;
+        position: relative;
+        top:10em;
+        left: -1em;
+        margin: 2em;
+        white-space: nowrap;
+
+    }
+
+    button.navbar-toggler{
+        margin-left: 14em;
+        margin-top: -5em;
+
+    }
+    #projectsLabel{
+        margin-top: 3em;
+        margin-left: 4em;
+    }
+
+}

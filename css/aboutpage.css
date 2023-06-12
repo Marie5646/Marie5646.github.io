@@ -134,7 +134,7 @@ footer {
     letter-spacing: 0px;
     color: #EDC7BE;
     opacity: 1;
-    font-size: 6vw;
+    font-size: 6em;
     white-space: nowrap;
     font-weight: bold;
 }
@@ -195,13 +195,14 @@ footer {
 @media (max-width: 575.98px) {
 
     .top-box {
-    font-size: 4vw;
+    font-size: 5vw;
     width: 300px;
     }
 
     .picture{
-        width: 150px;
-        height: 150px;
+        width: 250px;
+        height: 250px;
+        margin-left: -2.5em;
     }
     .footer-navbar{
         margin-left: -13em;
@@ -218,5 +219,15 @@ footer {
         margin-top: -5em;
 
     }
+    .head-pic{
+        flex-direction: column;
+    }
+   .top-li{
+       margin-left: 1em;
+   }
+   #about-me{
+       margin-left: -2.5em;
+       font-size: 2vw;
+   }
 
 }

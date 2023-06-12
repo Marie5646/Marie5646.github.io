@@ -285,7 +285,7 @@ footer {
     }
 
     #resumeBtn1{
-        margin-left: -1em;
+        margin-left: -9em;
         margin-top: 9em;
 
     }
@@ -341,16 +341,16 @@ footer {
     }
 
     .banner-header,.photos{
-        margin: auto;
+        margin: 3em;
     }
 
     #para{
         -webkit-line-clamp: 10;
     }
     .circle{
-        margin-top: 13em;
-        margin-left: 1em;
-        scale: 160%;
+        margin-top: 10em;
+        margin-left: 2.5em;
+        scale: 150%;
     }
 
     .projects{

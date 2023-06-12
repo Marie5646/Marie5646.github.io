@@ -123,8 +123,9 @@ footer {
 .picture{
     width: 300px;
     height: 300px;
-    background:url("/img/IMG_3567.png");
-    background-size: contain;
+    background:url("/img/IMG_4126.JPG");
+    background-position: center;
+    background-size: cover;
     border: 6px solid #EDC7BE;
     border-radius: 41px;
 }
@@ -146,7 +147,7 @@ footer {
     max-width: 800px;
     max-height: 800px;
     text-align: center;
-    font-family: "Forma DJR Display", serif;
+    font-family: "Forma DJR Display", sans-serif;
     font-weight: normal;
     letter-spacing: 2.76px;
     color: #EDC7BE;
@@ -210,6 +211,11 @@ footer {
         scale: 70%;
         margin-top: 3em;
         margin-left: -0.5em;
+
+    }
+    button.navbar-toggler{
+        margin-left: 14em;
+        margin-top: -5em;
 
     }
 

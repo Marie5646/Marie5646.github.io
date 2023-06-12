@@ -177,9 +177,9 @@ footer {
 
 .para{
     text-align: center;
-    font-family: Forma DJR Display, serif;
+    font-family: Forma DJR Display, sans-serif;
     font-weight: initial;
-    letter-spacing: 3px;
+    letter-spacing: 2px;
     color: #FFFFFF;
     opacity: 1;
     font-size: 1vw;
@@ -236,12 +236,16 @@ footer {
     }
 
     .para{
+        font-family: "Forma DJR Display", serif;
+        font-weight: normal;
         font-size: 2.5vw;
         max-width: 300px;
         margin: -4em;
         padding-top: 3em;
     }
     .tfsb{
+        font-family: Forma DJR Display, sans-serif;
+        font-weight: bold;
         position:inherit;
         margin: 2em;
         font-size: 4vw;
@@ -259,6 +263,8 @@ footer {
         margin-left: -15em;
     }
     .lc{
+        font-family: Forma DJR Display, sans-serif;
+        font-weight: bold;
         margin-left: 3.5em;
         font-size: 4vw;
     }

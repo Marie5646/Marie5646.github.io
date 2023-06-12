@@ -353,6 +353,10 @@ footer {
         scale: 160%;
     }
 
+    .projects{
+        padding-left: 0em;
+    }
+
     @media (min-width: 768px) and (max-width: 1199.98px) {
         .banner-ul {
             display: block;

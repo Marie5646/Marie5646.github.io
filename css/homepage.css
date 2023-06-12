@@ -418,13 +418,30 @@ background-size: contain;
         max-width: 400px;
         height: 550px;
     }
+
+    .modal-btn{
+        margin-top: 6em;
+    }
     .modal-dialog{
         margin: 3em;
         position: relative;
-        top: 10em;
+        top: 15em;
         right: 3em;
 
     }
+
+    .resumeDwld,.close-btn{
+        font-size: 20px;
+        padding: .3em 4em;
+        background-color: #EDC7BE;
+        border-radius: 38px;
+        border: 3px solid white;
+        font-weight: 600;
+        font-style: normal;
+        color: white;
+        box-shadow: 9px 6px 6px #80726898;
+    }
+
 
 
 

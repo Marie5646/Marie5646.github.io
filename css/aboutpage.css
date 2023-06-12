@@ -193,6 +193,13 @@ footer {
 #about-me{
     align-self: center;
 }
+.nav-link:hover{
+    color: #D3C7BA;
+}
+.navlink2:hover{
+    color: #D3C7BA;
+
+}
 @media (max-width: 575.98px) {
 
     .top-box {

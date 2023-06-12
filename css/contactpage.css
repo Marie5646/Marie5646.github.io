@@ -214,6 +214,13 @@ footer {
     font-size: 1vw;
     color: #FFFFFF;
 }
+.nav-link:hover{
+    color: #D3C7BA;
+}
+.navlink2:hover{
+    color: #D3C7BA;
+
+}
 
 @media (max-width: 575.98px) {
 

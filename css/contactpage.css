@@ -263,8 +263,8 @@ footer {
         font-family: Forma DJR Display, sans-serif;
         font-weight: bold;
         position:inherit;
-        margin: 2em;
-        font-size: 4vw;
+        margin: -0.2em;
+        font-size:5vw;
     }
 
     .forms{
@@ -281,8 +281,8 @@ footer {
     .lc{
         font-family: Forma DJR Display, sans-serif;
         font-weight: bold;
-        margin-left: 3.5em;
-        font-size: 4vw;
+        margin-left: 1.5em;
+        font-size: 5vw;
     }
     .footer-navbar{
         margin-left: -13em;

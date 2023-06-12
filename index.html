@@ -67,14 +67,24 @@
         <h2 id="greeting"> Hi, I'm Asia </h2>
         <h3 id="web-dev">  Web Developer </h3>
         <div id="para">Hello and welcome to my portfolio! I'm delighted to have you here, and I hope that you find inspiration and enjoyment as you explore my work. As a passionate developer with a keen eye for appealing designs, I strive to create captivating digital experiences that leave a lasting impression. </div>
-        <button type="button" id="resumeBtn1">Resume</button>
+        <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal" id="resumeBtn1">Resume</button>
       </div></li>
     </div>
     <div class="photos col-xs-10 col-8 col-md-4 col-lg-12 col-xl-4">
       <li><img id=circle1 class="circle" src="img/newcirclepng.png" ></li>
     </div>
   </ul>
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <img src="img/Asia%20Autrey-1.png" class="resumeImg" style="width: 500px" height="700px">
+        <div class="modal-footer">
+          <button type="button" class="resumeDwld">See More</button>
+          <button type="button" class="close-btn" data-bs-dismiss="modal">Close</button>
+        </div>
+    </div>
+  </div>
 </section>
+
 <section class="projects">
 
   <div class="container">
@@ -129,5 +139,18 @@
 
   </ul>
 </footer>
+<script>
+function resumeBt(){
+  let resumeBtn = document.getElementById("resumeBtn1")
+  resumeBtn.addEventListener("click", function (){
+
+  })
+
+}
+
+
+
+</script>
 </body>
+
 </html>

@@ -263,7 +263,8 @@ footer {
         font-family: Forma DJR Display, sans-serif;
         font-weight: bold;
         position:inherit;
-        margin: -0.2em;
+        margin: -4em;
+        padding: 4em;
         font-size:5vw;
     }
 

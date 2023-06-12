@@ -259,4 +259,15 @@ footer {
         margin-left: 3.5em;
         font-size: 4vw;
     }
+    .footer-navbar{
+        margin-left: -13em;
+        display: block;
+    }
+    .footer-logo{
+        scale: 70%;
+        margin-top: 3em;
+        margin-left: -0.5em;
+
+    }
+
 }

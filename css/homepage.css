@@ -313,8 +313,8 @@ background-size: contain;
     }
 
     #resumeBtn1{
-        margin-left: -9em;
-        margin-top: 7em;
+        margin-left: -7em;
+        margin-top: 2em;
 
     }
 
@@ -369,16 +369,18 @@ background-size: contain;
     }
 
     .banner-header,.photos{
-        margin: 3em;
+        /*margin: 3em;*/
     }
 
     #para{
-        -webkit-line-clamp: 10;
+        width: 300px;
+        margin-right: 4em;
+        line-height: 1.7em;
     }
     .circle{
-        margin-top: 5em;
-        margin-left: 2.8em;
-        scale: 150%;
+        margin-top: 8em;
+        margin-left: 5.8em;
+        scale: 130%;
     }
 
     .projects{
@@ -392,12 +394,13 @@ background-size: contain;
     #greeting,#web-dev{
         white-space: nowrap;
     }
-    #web-dev{
-        margin-left: -1.3em;
-    }
     #greeting{
-        margin-right: 3em;
+        margin-left: 0.7em;
     }
+    #web-dev{
+        margin-left: -0.4em;
+    }
+
 
     @media (min-width: 768px) and (max-width: 1199.98px) {
         .banner-ul {

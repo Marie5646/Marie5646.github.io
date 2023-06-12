@@ -356,6 +356,11 @@ footer {
     .projects{
         padding-left: 0em;
     }
+    .logo{
+        font-family: "forma-djr-display", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+    }
 
     @media (min-width: 768px) and (max-width: 1199.98px) {
         .banner-ul {

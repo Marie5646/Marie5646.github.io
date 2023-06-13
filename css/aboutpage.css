@@ -207,8 +207,9 @@ footer {
 @media (max-width: 575.98px) {
 
     .top-box {
-    font-size: 5vw;
-    width: 300px;
+    font-size: 4vw;
+    width: 400px;
+        padding: 2em;
     }
 
     .picture{

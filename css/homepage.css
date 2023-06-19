@@ -203,6 +203,7 @@ section.banner {
     max-width: content-box;
     background-color: #D3C7BA;
     padding-left: 15em;
+    padding-bottom: 2em;
 
 }
 
@@ -223,10 +224,20 @@ section.banner {
     color: white;
 }
 
-
 .fa-brands {
     padding: 0.2em;
 
+}
+
+.project-header{
+    position: relative;
+    top: 5em;
+    white-space: nowrap;
+    text-align: center;
+    font-family: "forma-djr-display", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: white;
 }
 .skill-icon{
     padding: 1em;
@@ -310,113 +321,122 @@ background-size: contain;
 @media (max-width: 575.98px) {
 
 
-    #proj1,#proj2,#proj3{
+    #proj1, #proj2, #proj3 {
         border-radius: 22px;
         box-shadow: 10px 3px 6px #00000029;
         margin: 2em;
         max-height: 40%;
         max-width: 80%;
     }
-    #projBtn1,#projBtn3,#projBtn2{
+
+    #projBtn1, #projBtn3, #projBtn2 {
         margin: 2em;
         border-radius: 22px;
         border: 3px solid white;
         background-color: #EDC7BE;
         color: white;
     }
-    .home-project{
+
+    .home-project {
         background-color: white;
 
 
     }
 
-    #resumeBtn1{
+    #resumeBtn1 {
         left: 4em;
-         top: 4em;
+        top: 4em;
     }
 
 
-    .logo{
+    .logo {
         margin-left: 0.5em;
         width: 5em;
         height: 5em;
     }
-    .skillcontainer{
+
+    .skillcontainer {
         margin-right: 1.5em;
     }
 
-    .footer-logo{
+    .footer-logo {
         scale: 70%;
         margin-top: 3em;
         margin-left: -0.5em;
 
     }
 
-    button.navbar-toggler{
+    button.navbar-toggler {
         margin-left: 14em;
         margin-top: -5em;
 
     }
 
-    .nav-right{
+    .nav-right {
         margin-left: 0.2em;
         margin-top: 1em;
     }
 
-    .fa-brands{
+    .fa-brands {
         scale: 70%;
         padding: 0em;
     }
-    .skills-heading{
+
+    .skills-heading {
         margin-top: 0.5em;
     }
 
-    .skill2,.skill1{
+    .skill2, .skill1 {
         justify-content: space-evenly;
     }
 
-    .footer-navbar{
+    .footer-navbar {
         margin-left: -13em;
         display: block;
 
 
     }
-    .banner-ul{
+
+    .banner-ul {
         display: inline;
     }
 
 
-    #para{
+    #para {
         min-width: 300px;
         padding: 1em;
         line-height: 1.7em;
     }
-    .circle{
+
+    .circle {
         margin-top: 8em;
         margin-left: 2.5em;
     }
 
-    .projects{
+    .projects {
         padding-left: 0em;
     }
-    .logo{
+
+    .logo {
         font-family: "forma-djr-display", sans-serif;
         font-weight: 700;
         font-style: normal;
     }
-    #greeting,#web-dev{
+
+    #greeting, #web-dev {
         white-space: nowrap;
     }
 
-    .resumeImg{
+    .resumeImg {
         max-width: 400px;
         height: 550px;
     }
 
-    .modal-btn{
+    .modal-btn {
         margin-top: 6em;
     }
-    .modal-dialog{
+
+    .modal-dialog {
         margin: 3em;
         position: relative;
         top: 12em;
@@ -424,7 +444,7 @@ background-size: contain;
 
     }
 
-    .resumeDwld,.close-btn{
+    .resumeDwld, .close-btn {
         font-size: 20px;
         padding: .3em 4em;
         background-color: #EDC7BE;
@@ -437,22 +457,49 @@ background-size: contain;
     }
 
 
+}
 
-
-    @media (min-width: 768px) and (max-width: 1199.98px) {
-        .banner-ul {
-            display: block;
+    @media (max-width: 1200px) {
+        #resumeBtn1{
+            margin-left: 47em;
+            margin-top: -6em;
         }
 
-        .fa-brands{
-            font-size: 9vw;
+        .footer-navbar{
+            display: inline;
+        }
+        .footer-logo{
+            margin-left: 6em;
         }
 
+        .banner-ul{
+            flex-direction: column;
+        }
+        .nav-right{
+            margin-left: 0em;
+        }
+
+        section.banner{
+            min-height: 40vh;
+        }
+        .circle{
+            scale: 95%;
+            margin-top: 16em;
+            margin-left: 1em;
+        }
+        .fa-brands {
+            scale: 70%;
+            padding: 0.5em;
+        }
+        .projects{
+            padding-left: 0;
+        }
+        .project-header{
+            margin-left: -2.5em;
+            margin-top: 1em;
+        }
 
     }
 
 
-
-
-}
 

@@ -234,24 +234,27 @@ footer {
 @media (max-width: 575.98px) {
 
 
-    ul{
+    ul {
         padding: 0em;
     }
-    .rec-one{
+
+    .rec-one {
         width: 350px;
         height: 400px;
     }
-    .rec-two{
+
+    .rec-two {
         width: 350px;
         height: 400px;
     }
-    button.navbar-toggler{
+
+    button.navbar-toggler {
         margin-left: 13em;
         margin-top: -5em;
 
     }
 
-    .para{
+    .para {
         font-family: Forma DJR Display, sans-serif;
         font-weight: normal;
         font-size: 2.5vw;
@@ -260,49 +263,111 @@ footer {
         /*padding-top: 3em;*/
         padding: 2em;
     }
-    .tfsb{
+
+    .tfsb {
         font-family: Forma DJR Display, sans-serif;
         font-weight: bold;
-        position:inherit;
+        position: inherit;
         margin: -4em;
         padding: 4em;
-        font-size:5vw;
+        font-size: 5vw;
     }
 
-    .forms{
+    .forms {
         margin: -14em;
     }
-    .form-label{
+
+    .form-label {
         font-size: 3vw;
     }
 
-    .button-container{
+    .button-container {
         margin-top: 14em;
         margin-left: -15em;
     }
-    .lc{
+
+    .lc {
         font-family: Forma DJR Display, sans-serif;
         font-weight: bold;
         margin-left: 1.5em;
         font-size: 5vw;
     }
-    .footer-navbar{
+
+    .footer-navbar {
         margin-left: -13em;
         display: block;
     }
-    .footer-logo{
+
+    .footer-logo {
         scale: 70%;
         margin-top: 3em;
         margin-left: -0.5em;
 
     }
-    .nav-right{
+
+    .nav-right {
         margin-left: 0.2em;
         margin-top: 1em;
     }
-    .fa-brands{
+
+    .fa-brands {
         scale: 70%;
         padding: 0em;
     }
-
 }
+    @media (max-width: 1200px) {
+        .rec-one{
+            width: 550px;
+            height: 500px;
+        }
+        .rec-two{
+            width: 550px;
+            height: 500px;
+        }
+        .forms {
+            margin: -8em;
+        }
+        .para {
+            font-family: Forma DJR Display, sans-serif;
+            font-weight: normal;
+            font-size: 1.5vw;
+            max-width: 500px;
+            margin: -5em;
+            /*padding-top: 3em;*/
+            padding: 2em;
+        }
+
+        .tfsb {
+            font-family: Forma DJR Display, sans-serif;
+            font-weight: bold;
+            position: inherit;
+            margin: -4.5em;
+            padding: 4em;
+            font-size: 4vw;
+        }
+        .lc {
+            font-family: Forma DJR Display, sans-serif;
+            font-weight: bold;
+            margin-left: -0.5em;
+            font-size: 5vw;
+        }
+        .nav-right {
+            margin-left: 0.2em;
+            margin-top: 1em;
+        }
+        .fa-brands {
+            scale: 70%;
+            padding: 0em;
+        }
+        .footer-navbar {
+            display: inline;
+        }
+
+        .footer-logo {
+            scale: 70%;
+            margin-top: 3em;
+
+        }
+
+    }
+

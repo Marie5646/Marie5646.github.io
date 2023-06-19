@@ -362,7 +362,7 @@ background-size: contain;
     .footer-logo {
         scale: 70%;
         margin-top: 3em;
-        margin-left: -0.5em;
+        margin-left: 0em;
 
     }
 
@@ -459,7 +459,7 @@ background-size: contain;
 
 }
 
-    @media (max-width: 1200px) {
+    @media  (min-width: 768px) and (max-width: 1200px) {
         #resumeBtn1{
             margin-left: 47em;
             margin-top: -6em;
@@ -498,6 +498,7 @@ background-size: contain;
             margin-left: -2.5em;
             margin-top: 1em;
         }
+
 
     }
 

@@ -253,3 +253,36 @@ footer {
     }
 
 }
+@media (max-width: 1200px) {
+
+    .picture{
+        scale: 70%;
+    }
+    .top-box {
+        font-weight: normal;
+        font-size: 2vw;
+        width: 700px;
+        margin-top: -2em;
+    }
+    .header{
+        font-size: 4em;
+    }
+    .footer-navbar {
+        display: inline;
+    }
+
+    .footer-logo {
+        scale: 70%;
+        margin-top: 3em;
+
+    }
+    .nav-right {
+        margin-left: 0.2em;
+        margin-top: 1em;
+    }
+    .fa-brands {
+        scale: 70%;
+        padding: 0em;
+    }
+
+}

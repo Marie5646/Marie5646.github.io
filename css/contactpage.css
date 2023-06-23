@@ -163,7 +163,7 @@ footer {
     box-shadow: 9px 6px 6px #80726898;
     position: relative;
     top: 4em;
-    left: 15em;
+    left: 14em;
 
 
 }
@@ -212,7 +212,7 @@ footer {
     width: 300px;
     height: 300px;
     margin: -14em;
-    z-index: -4;
+    /*z-index: -4;*/
     position: relative;
     top:16em;
     left: 30em;
@@ -229,6 +229,14 @@ footer {
 .navlink2:hover{
     color: #D3C7BA;
 
+}
+.ty-message{
+    font-family: "Forma DJR Display", serif;
+    font-weight: bold;
+    display: none;
+    margin-left: 5em;
+    color: white;
+    margin-top: 3em;
 }
 
 @media (max-width: 575.98px) {

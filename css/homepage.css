@@ -233,11 +233,11 @@ section.banner {
     position: relative;
     top: 5em;
     white-space: nowrap;
-    text-align: center;
     font-family: "forma-djr-display", sans-serif;
     font-weight: 600;
     font-style: normal;
     color: white;
+    text-align: center;
 }
 .skill-icon{
     padding: 1em;
@@ -411,6 +411,9 @@ background-size: contain;
     .circle {
         margin-top: 8em;
         margin-left: 2.5em;
+    }
+    .project-header{
+       margin-left: -3em;
     }
 
     .projects {

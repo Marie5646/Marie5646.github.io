@@ -292,6 +292,9 @@ footer {
     top: 6.5em;
     left:3em;
 }
+.projBtn{
+    white-space: nowrap;
+}
 
 .navitem2 {
     margin-right: 9em;

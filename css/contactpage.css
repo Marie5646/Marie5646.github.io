@@ -162,7 +162,7 @@ footer {
     color: white;
     box-shadow: 9px 6px 6px #80726898;
     position: relative;
-    top: 3em;
+    top: 4em;
     left: 14em;
 
 
@@ -240,12 +240,12 @@ footer {
 
     .rec-one {
         width: 350px;
-        height: 400px;
+        height: 500px;
     }
 
     .rec-two {
         width: 350px;
-        height: 400px;
+        height: 500px;
     }
 
     button.navbar-toggler {
@@ -314,6 +314,12 @@ footer {
         scale: 70%;
         padding: 0em;
     }
+    .mb-3{
+        left: 15.5em;
+    }
+    #submitBtn1{
+        top: -5em;
+    }
 }
     @media (min-width: 768px) and (max-width: 1200px) {
         .rec-one{
@@ -326,6 +332,9 @@ footer {
         }
         .forms {
             margin: -8em;
+        }
+        .mb-3{
+            left: 22em;
         }
         .para {
             font-family: Forma DJR Display, sans-serif;
@@ -367,6 +376,10 @@ footer {
             scale: 70%;
             margin-top: 3em;
 
+        }
+        #submitBtn1{
+            left: 8em;
+            top: 4em;
         }
 
     }

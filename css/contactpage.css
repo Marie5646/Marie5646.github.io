@@ -267,7 +267,8 @@ footer {
     .tfsb {
         font-family: Forma DJR Display, sans-serif;
         font-weight: bold;
-        position: inherit;
+        position: relative;
+        right: 2em;
         margin: -4.3em;
         padding: 4em;
         font-size: 5vw;

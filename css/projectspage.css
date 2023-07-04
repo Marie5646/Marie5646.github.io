@@ -203,6 +203,13 @@ footer {
     background-size: cover;
     background-position: center;
 }
+#proj2B{
+    background-image: url("../img/Screen Shot 2023-07-03 at 10.29.16 PM.png");
+    background-size: cover;
+    background-position: center;
+}
+
+
 
 
 @media (max-width: 575.98px) {

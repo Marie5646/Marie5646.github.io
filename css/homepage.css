@@ -223,6 +223,14 @@ section.banner {
     background-color: #EDC7BE;
     color: white;
 }
+/*#projBtn3A{*/
+/*    margin-left: 6.5em;*/
+/*    padding: 1em 120px;*/
+/*    border-radius: 22px;*/
+/*    border: 3px solid white;*/
+/*    background-color: #EDC7BE;*/
+/*    color: white;*/
+/*}*/
 
 .fa-brands {
     padding: 0.2em;
@@ -313,10 +321,11 @@ background-image: url("../img/Screen Shot 2023-06-12 at 1.32.23 PM.png");
 background-position: center;
 background-size: contain;
 }
+
 #proj3{
-    background-image: url("../img/Screen Shot 2023-06-12 at 3.44.48 PM.png");
+    background-image: url("../img/Screen Shot 2023-07-14 at 11.58.59 AM.png");
     background-position: center;
-    background-size:contain;
+    background-size:cover;
 }
 .nav-link:hover{
     color: #D3C7BA;

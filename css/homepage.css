@@ -312,7 +312,7 @@ footer {
 }
 #proj1{
     background-image: url("../img/Screen Shot 2023-06-12 at 1.28.46 PM.png");
-    background-position: center;
+    /*background-position: center;*/
     background-size: cover;
 }
 
@@ -324,7 +324,7 @@ background-size: contain;
 
 #proj3{
     background-image: url("../img/Screen Shot 2023-07-14 at 11.58.59 AM.png");
-    background-position: center;
+    /*background-position: center;*/
     background-size:cover;
 }
 .nav-link:hover{

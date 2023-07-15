@@ -176,7 +176,7 @@ footer {
 .tfsb{
     font-family: "Forma DJR Display", serif;
     font-weight: bold;
-    font-size: 3vw;
+    font-size: 45px;
     color: #FFFFFF;
     position: relative;
     top:2em;
@@ -191,7 +191,7 @@ footer {
     letter-spacing: 2px;
     color: #FFFFFF;
     opacity: 1;
-    font-size: 1vw;
+    font-size: 15px; /* Adjust the font size to your desired value */
     max-width: 600px;
     position: relative;
     top: 8em;
@@ -201,7 +201,7 @@ footer {
 .lc{
     font-family: "Forma DJR Display", serif;
     font-weight: bold;
-    font-size: 3.5vw;
+    font-size: 50px; /* Adjust the font size to your desired value */
     color: #FFFFFF;
     position: relative;
     left: 5.5em;
@@ -383,6 +383,8 @@ footer {
             left: 8em;
             top: 4em;
         }
+
+
 
     }
 

@@ -148,10 +148,10 @@ section.banner {
     font-style: normal;
     color: white;
     box-shadow: 9px 6px 6px #80726898;
-    position: relative;
-    left: -24em;
-    top: 9em;
-
+    margin-top: 2em;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
 #resumeBtn1:hover{
     background-color: white;
